@@ -2,6 +2,7 @@
 
 @import "./header.css";
 @import "./sidenav.css";
+@import "./ad.css";
 
 body,
 p,
@@ -10,6 +11,12 @@ ul,
 li blockquote {
   padding: 0;
   margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
 }
 
 body {
@@ -37,10 +44,6 @@ a {
   grid-area: content;
 }
 
-.ad {
-  grid-area: ad;
-}
-
 .footer {
-  grid-area: ad;
+  grid-area: footer;
 }

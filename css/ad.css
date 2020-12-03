@@ -1,0 +1,9 @@
+.ad {
+  grid-area: ad;
+  background: #fafbfc;
+  padding: 30px;
+
+  display: grid;
+  grid-template-rows: 200px 200px;
+  align-content: start;
+}
