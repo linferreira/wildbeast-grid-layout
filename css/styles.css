@@ -4,6 +4,7 @@
 @import "./sidenav.css";
 @import "./ad.css";
 @import "./footer.css";
+@import "./content.css";
 
 body,
 p,
@@ -39,8 +40,4 @@ a {
     "header header header"
     "sidenav content ad"
     "footer footer footer";
-}
-
-.content {
-  grid-area: content;
 }

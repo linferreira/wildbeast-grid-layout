@@ -1,0 +1,123 @@
+.content {
+  grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.col-wide {
+  grid-column: 1 / -1;
+  align-self: start;
+}
+
+.medium-img {
+  grid-row: span 2;
+  align-self: end;
+}
+
+.small-img {
+  align-self: end;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.info p + p {
+  margin-top: 30px;
+}
+
+.title {
+  color: #b07dfb;
+}
+
+.title h1 {
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.title span {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.characteristics {
+  display: flex;
+  align-items: flex-start;
+}
+
+.characteristics > div {
+  width: 80px;
+  text-align: center;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  position: relative;
+}
+
+.characteristics > div:first-child {
+  margin-right: 30px;
+}
+
+.number {
+  color: #b07dfb;
+  font-size: 48px;
+  line-height: 1;
+  margin: 10px auto;
+}
+
+.characteristics span {
+  display: block;
+  color: #bba1ed;
+  top: 2px;
+}
+
+.legend {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 10px;
+  position: relative;
+}
+
+.callouts {
+  font-size: 0.875em;
+  color: #b07dfb;
+  max-width: 220px;
+}
+
+.quote,
+.attributes {
+  align-self: start;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.quote p {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.attributes li {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.attributes li + li {
+  border-top: 2px solid #b07dfb;
+}
