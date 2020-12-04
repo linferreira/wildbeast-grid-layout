@@ -6,4 +6,5 @@
   display: grid;
   grid-template-rows: 200px 200px;
   align-content: start;
+  grid-template-columns: repeat(auto-fit);
 }
